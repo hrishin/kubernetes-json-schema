@@ -6,3 +6,15 @@ Scripts
 pip-selfcheck.json
 tcl
 __pycache__
+
+.idea
+target
+*.iml
+*.ipr
+*.iws
+notes.md
+.project
+.classpath
+.settings
+.vscode
+velocity.log
