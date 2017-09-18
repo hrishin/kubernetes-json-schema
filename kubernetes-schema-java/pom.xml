@@ -3,15 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.fabric8</groupId>
-    <artifactId>kubernetes-schema-java</artifactId>
-    <version>master</version>
+    <artifactId>kubernetes-json-schema</artifactId>
+    <version>${version}</version>
     <packaging>jar</packaging>
 
-    <name>kubernetes-schema-java</name>
+    <name>kubernetes-json-schema</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version>1.7.5</version>
     </properties>
 
     <build>
@@ -29,7 +30,7 @@
                             <outputDirectory>${basedir}/target/classes/schema/</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>../master-standalone</directory>
+                                    <directory>../v${version}-standalone</directory>
                                 </resource>
                             </resources>
                         </configuration>
